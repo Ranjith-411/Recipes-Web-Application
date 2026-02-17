@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 206, 206);
+}
+
+main{
+           
+    box-shadow: 0PX 0PX 20PX rgb(90, 170, 185);
+    height: 100%;
+    width: 1450px;
+    /* border: 2px solid rgb(27, 24, 24); */
+    margin:20px auto;
+    padding: 10px;
+    background-color: rgba(156, 227, 217, 0.829);
+    color: black;
+    display: flex;
+    overflow: hidden;
+    padding: 20px;
+ }
+#content{
+    margin: 20px;
+}
+ img{
+
+    width: 450px;
+    height: 450px;
+    margin-bottom: 10px;
+}
+img:hover{
+    transform: scale(1.08);
+    transition-duration: 1s ;
+    overflow: hidden;
+}
+
+#title{
+    margin: 30px;
+    color: rgb(181, 40, 5);
+}
+#caloriesPerServing{
+    margin: 30px;
+
+}
+#cuisine{
+    margin: 30px;
+    line-height: 30px;
+    width: 900px;
+    font-size: 25px;
+    /* border: 2px solid rgb(6, 5, 5); */
+}
+button{
+    margin: 30px;
+    height: 70px;
+    width: 250px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    /* border: 2px solid black; */
+    
+
+}
+
+#p{
+    margin: 30px;
+    color: rgb(2, 58, 11);
+}
+#c{
+    margin: 30px;
+    color: rgb(21, 3, 2);
+}
+button:hover{
+    transform: scale(1.1);
+    transition-duration: 1s ;
+    overflow: hidden;
+
+}
+#add{
+    margin-right: 30px;
+    background-color: green;
+}
+#back{
+    background-color: rgb(189, 71, 20);
+}
